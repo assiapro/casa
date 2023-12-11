@@ -1,0 +1,170 @@
+
+*{
+    box-sizing: border-box ;
+    
+    }
+    header {
+        border: 2px solid green;
+        background-position: center;
+        background-image: url(../bg.jpg);
+        background-size: cover; 
+         height: 90vh; 
+
+    }
+#navigation
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    
+}
+
+#navigation h1
+{
+color: white;
+font-family: 'Ephesis', cursive;
+}
+#en-tete
+{
+text-align: center;
+}
+
+#recherche {
+    display: flex;
+    align-items: center;
+    background-color:gray;
+    justify-content: space-around;
+    ruby-merge: auto;
+    resize: both;
+}
+#recherche i {
+    font-size: 1.2em;
+
+}
+#recherche p {
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+#recherche{}
+nav
+{
+      justify-content: space-around;
+      display: flex;
+      width: 40%;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    padding: 10px 10px;
+    border-radius: 30px;
+    
+}
+nav a:hover
+{
+   background-color: rgb(14, 29, 143); 
+   
+}
+
+
+
+nav a:last-of-type {
+    border: 2px solid rgb(234, 234, 239);
+}
+
+#en-tete h2 {
+font-family: 'Ephesis', cursive;
+font-size: 5em;
+font-weight: lighter;
+text-transform: capitalize;
+height: 1em;
+display: flex;
+justify-content: space-around;
+}
+
+body 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding: 0%;
+}
+.conteneur
+
+{
+    width: 70%;
+    margin: auto;
+   
+}
+.row {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.col-4 {
+   
+   width: 33.333333%;
+   padding: 25px;
+
+}
+img{
+    width: 100%;
+}
+
+.prix {
+
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+}
+article div {
+    position: relative;
+}
+
+
+:root
+
+{
+
+    --blanc:#fff;
+    --gris-clair:#ddd;
+    --gris-trensparent:rgba(0,0,0,212);
+    --grid-fonce:rgb(155,155,155);
+    --bleu-clair:#c1d2d9;
+    --bleu-fonce:#7bafc9;
+    --orange:orange;
+    
+}
+.col-6 {
+    width: 50%;
+    padding: 25px;
+}
+
+.col-2 {
+     
+        width: 16.6666%;
+        padding: 25px;
+        
+}
+footer{
+    background-color: var(--bleu-fonce);
+}
+footer a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+footer {
+    font-family: 'Enphesis', cursive;
+    font-weight: lighter;
+    height: 60vh;
+   color: var(--blanc);
+
+}
